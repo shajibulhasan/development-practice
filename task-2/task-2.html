@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+</head>
+<style>
+    body{
+        background-image: url(./bg-1.jpg), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+        background-blend-mode: overlay;
+        background-size: cover;
+    }
+    .logo{
+        color: #E50914;
+        text-shadow: 20px;
+        margin-left: 40px;
+    }
+    .middle{
+        color: #fff;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+    }
+    .button{
+       background-color: red;
+       border-radius: 5px;
+       border: none;
+       padding: 6px 15px;
+       color: #fff;
+    }
+    input{
+        padding: 5px;
+    }
+</style>
+<body>
+    <h1 class="logo">NETFLIX</h1>
+    <div class="middle">
+        <h1 class="title">Unlimited movies, TV shows, and more</h1>
+        <p class="subTitle">Watch anywhere. Cancel anytime.</p>
+        <p class="discrption">Ready to watch? Enter your email to create or restart your membership.</p>
+        <input type="text" placeholder="Email address">
+        <button class="button">Get started &gt; </button>
+    </div>
+</body>
+</html>
